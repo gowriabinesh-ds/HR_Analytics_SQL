@@ -42,6 +42,6 @@ This was the core finding of the project, using a **Common Table Expression (CTE
 
 **The Query Identified: 120** high-performing employees ($PerformanceRating = 4$) who are currently earning **below** the average monthly income for their $\text{JobRole}$.
 
-> **🔥 Critical Recommendation:** **This list of 120 employees represents the highest retention risk.** These are the company's best talents who are statistically underpaid. Prioritizing immediate compensation adjustments for this small, high-value cohort will yield the highest return on retention investment.
+> **🔥 Critical Recommendation:** **This list of 120 employees represents the highest retention risk.** These are the company's best talents who are statistically underpaid. <br> Prioritizing immediate compensation adjustments for this small, high-value cohort will yield the highest return on retention investment.
 
 ---
