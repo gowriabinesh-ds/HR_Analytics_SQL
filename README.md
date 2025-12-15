@@ -4,11 +4,15 @@
 
 This project utilizes SQL to perform an in-depth analysis of a corporate Human Resources dataset. The primary goal was to move beyond simple reporting and provide **actionable, data-driven recommendations** to the C-suite on how to reduce costly employee attrition (turnover) and better manage compensation.
 
+---
+
 ## 💾 Dataset Overview
 
 * **Source:** Kaggle (IBM HR Analytics - Employee Attrition & Performance)
-* **Technology:** Analysis performed using **[MySQL]**.
+* **Technology:** Analysis performed using **MySQL**.
 * **Key Data Points:** Employee $ID$, $Attrition$ (Yes/No), $Department$, $JobRole$, $MonthlyIncome$, $JobSatisfaction$ and $PerformanceRating$.
+
+---
 
 ## 🛠️ Key SQL Analysis & Insights
 
@@ -39,3 +43,5 @@ This was the core finding of the project, using a **Common Table Expression (CTE
 **The Query Identified: 120** high-performing employees ($PerformanceRating = 4$) who are currently earning **below** the average monthly income for their $\text{JobRole}$.
 
 > **🔥 Critical Recommendation:** **This list of 120 employees represents the highest retention risk.** These are the company's best talents who are statistically underpaid. Prioritizing immediate compensation adjustments for this small, high-value cohort will yield the highest return on retention investment.
+
+---
