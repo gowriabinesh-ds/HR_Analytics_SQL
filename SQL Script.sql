@@ -1,5 +1,5 @@
 /* ============================================================
-   HR Analytics (MySQL)
+   HR Analytics – Employee Attrition & Flight Risk Analysis
    ============================================================ */
     
 CREATE DATABASE hr_analytics;
