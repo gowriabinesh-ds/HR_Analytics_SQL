@@ -14,6 +14,25 @@ This project utilizes SQL to perform an in-depth analysis of a corporate Human R
 
 ---
 
+## 💻 SQL Techniques Used
+
+- Aggregations with GROUP BY for attrition analysis
+- Conditional logic using CASE WHEN
+- Common Table Expressions (CTEs) for role-based salary benchmarking
+- Business-rule filtering to identify high-risk employee segments
+
+---
+
+## ▶️ How to Run This Project
+
+1. Create a MySQL database named `hr_analytics`
+2. Import `HR_Employee_Attrition_Data.csv` as table `HR_Data`
+   - You may use MySQL Workbench → Table Data Import Wizard
+3. Run the SQL script provided in this repository
+4. Review outputs from each analysis section
+
+---
+
 ## 🛠️ Key SQL Analysis & Insights
 
 ### 1. The Attrition Problem: Where it Hurts Most
@@ -25,7 +44,7 @@ The overall company attrition rate stands at **16.12%**. Further segmentation re
 | **Sales** | **20.63%** | This is the highest rate. Immediate review of sales commission structures and work-life balance initiatives is necessary to stabilize this core revenue function. |
 | **Human Resources** | **19.05%** | High turnover in the HR department itself is a major red flag for company culture and management. |
 
-### 2. Correlation: Satisfaction Directly Drives Retention
+### 2. Key Driver Analysis: Job Satisfaction Strongly Impacts Retention
 
 A clear negative correlation was found between job satisfaction scores ($1$=Low, $4$=High) and the likelihood of leaving the company.
 
