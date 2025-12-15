@@ -37,7 +37,7 @@ This project utilizes SQL to perform an in-depth analysis of a corporate Human R
 
 ### 1. The Attrition Problem: Where it Hurts Most
 
-The overall company attrition rate stands at **16.12%**. Further segmentation revealed a critical department-level issue:
+The overall company attrition rate stands at **16.12%**.  View Output: [Overall Attrition & Department Breakdown](outputs/overall_attrition_rate.png) <br> Further segmentation revealed a critical department-level issue:
 
 | Department | Attrition Rate | **Actionable Insight** |
 | :--- | :--- | :--- |
