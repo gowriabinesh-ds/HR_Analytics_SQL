@@ -37,7 +37,7 @@ This project utilizes SQL to perform an in-depth analysis of a corporate Human R
 
 ### 1. The Attrition Problem: Where it Hurts Most
 
-The overall company attrition rate stands at **16.12%**. [Overall Attrition & Department Breakdown](outputs/overall_attrition_rate.jpg) <br> Further segmentation revealed a critical department-level issue:
+The overall company attrition rate stands at **16.12%**. [Overall Attrition & Department Breakdown](Outputs/overall_attrition_rate.jpg) <br> Further segmentation revealed a critical department-level issue:
 
 | Department | Attrition Rate | **Actionable Insight** |
 | :--- | :--- | :--- |
@@ -59,7 +59,7 @@ A clear negative correlation was found between job satisfaction scores ($1$=Low,
 
 This was the core finding of the project, using a **Common Table Expression (CTE)** to compare an employee's salary against their specific role's average.
 
-**The Query Identified: 120** high-performing employees ($PerformanceRating = 4$) who are currently earning **below** the average monthly income for their $\text{JobRole}$. [Flight Risk – Underpaid High Performers](outputs/flight_risk_underpaid_high_performers.jpg)
+**The Query Identified: 120** high-performing employees ($PerformanceRating = 4$) who are currently earning **below** the average monthly income for their $\text{JobRole}$. [Flight Risk – Underpaid High Performers](Outputs/flight_risk_underpaid_high_performers.jpg)
 
 > **🔥 Critical Recommendation:** **This list of 120 employees represents the highest retention risk.** These are the company's best talents who are statistically underpaid. <br> Prioritizing immediate compensation adjustments for this small, high-value cohort will yield the highest return on retention investment.
 
